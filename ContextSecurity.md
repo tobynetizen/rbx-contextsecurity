@@ -1,6 +1,6 @@
 ## > ContextSecurity.md
 ### Introduction
-While I was developing my FPS framework for ROBLOX, I was trying to think of ways to communicate between client and server scripts without using RemoteEvents/RemoteFunctions. I thought of this conceptual transmission protocol using module scripts which is not an applicable solution by any means; However, I thought I would archive it here because it is still useful information to maybe implement in another project.
+While I was developing my FPS framework for Roblox, I was trying to think of ways to communicate between client and server scripts without using RemoteEvents/RemoteFunctions. I thought of this conceptual transmission protocol using module scripts which is not an applicable solution by any means; However, I thought I would archive it here because it is still useful information to maybe implement in another project.
 
 ### Protocol
 The system consists of one module script, one local script, and one server script. The location of each does not matter except the module script which must be accessible to both the server and the client. I will first share the module script and them explain how it all works.
