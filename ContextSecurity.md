@@ -1,4 +1,4 @@
-## > ContextSecurity.md
+## ContextSecurity.md
 ### Introduction
 While I was developing my FPS framework for Roblox, I was trying to think of ways to communicate between client and server scripts without using RemoteEvents/RemoteFunctions. I thought of this conceptual transmission protocol using module scripts which is not an applicable solution by any means; However, I thought I would archive it here because it is still useful information to maybe implement in another project.
 
@@ -96,5 +96,5 @@ end
 And finally, when the localized GlobalContext gets invoked to add or query an element in it's table, it will act as a proxy and invoke the metamethod of the GlobalContext table in the module script.</br>
 
 ### Conclusion
-Again — this is not functional as is, but it can still be implemented in other ways.</br>
-This is just the basis of understanding for the system wholefully.
+Again — this is not functional as is, but it can still be implemented in other ways.<br>
+This is just the basis of understanding for the system holistically.
