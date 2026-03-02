@@ -1,4 +1,4 @@
-## > ContextSecurity.md
+## ContextSecurity.md
 A conceptual context-based transmission protocol using module scripts as an alternative to remotes.
 
 ## License
